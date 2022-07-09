@@ -11,6 +11,6 @@ for x in 0, 1:
             if not (x + y + z) == (not x) * (not y) * (not z):
                 sum += 1
 if result == sum:
-    print('Истина')
+    print('True')
 else:
-    print('Лож')
+    print('False')
