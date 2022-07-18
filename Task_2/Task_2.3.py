@@ -8,3 +8,12 @@
 # 0
 # Вывод:
 # 7
+
+num = int(input())
+max1 = 0
+max2 = 0
+while num != 0:
+    if 
+
+
+print(num)
