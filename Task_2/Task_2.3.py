@@ -10,10 +10,12 @@
 # 7
 
 num = int(input())
-max1 = 0
-max2 = 0
+max1 = num
+max2 = num
 while num != 0:
-    if 
-
-
-print(num)
+    num = int(input())
+    if max1 < num:
+        max2 = max1
+        max1 = num
+print('Вывод')        
+print(max2)
