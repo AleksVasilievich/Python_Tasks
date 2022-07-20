@@ -3,4 +3,16 @@
 #  значением дробной части элементов.
 # Пример:   - [1.1, 1.2, 3.1, 5, 10.01] => 0.19
 
+line = [1.1, 1.2, 3.1, 5, 10.01]
+line1 = []
+line2 = line.copy()
+
+while len(line) > 0: 
+    line1.append(round(line.pop() - round(line2.pop()),2))
+
+for i in line1:
+    if i != 0:             #  целое число не имеет дробную часть
+        line.append(i)
+
+print(max(line) - min(line))
 
