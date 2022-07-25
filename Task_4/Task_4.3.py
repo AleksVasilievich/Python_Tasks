@@ -8,3 +8,11 @@ for i in col1:
     if i not in col2:
         col2.append(i)
 print(col2)        
+ 
+# stroka = ''.join(input().split())
+# print(stroka)
+# new_arr = []
+# for i in stroka:
+#     if i not in new_arr:
+#         new_arr.append(i)
+# print(new_arr)
