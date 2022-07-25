@@ -6,8 +6,7 @@
 import random
 
 k = int(input("Введите положительное целое число - степень многочлена ->  "))
-col = [random.randint(0, 101) for i in range(k + 1)] 
-col = col[::-1]  
+col = [random.randint(0, 101) for i in range(k + 1)]  
 func = '' 
 for i in range(len(col)):
     if i != len(col) -1 and i != len(col) -2 and col[i] != 0:
