@@ -23,3 +23,21 @@ for i in range(len(col)):
         func += ' = 0'
 
 print(func)
+
+
+# k = int(input('Задайте натуральную степень k: '))
+# arr = []
+# for i in range(k, 0, -1):
+#     print(f'{rd(0, 100)}x^{i}+', end='')
+# print(rd(-100, 100), end='')
+
+
+# натуральную степень k: '))
+# arr = []
+# for i in range(k, 0, -1):
+#     x = rd(-100, 100)
+#     if x > 0:
+#         print(f'+{x}x^{i}', end='')
+#     else:
+#         print(f'{x}x^{i}', end='')
+# print(rd(-100, 100), end='')

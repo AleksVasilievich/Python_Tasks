@@ -16,3 +16,19 @@ print(col2)
 #     if i not in new_arr:
 #         new_arr.append(i)
 # print(new_arr)
+
+
+
+
+# list_1 = [45, -10, 23, 2, 45, -10, 1]
+# d = {}
+# for i in list_1:
+#     if i not in d:
+#         d[i] = 1
+#     else:
+#         d[i] += 1
+# arr = []
+# for i in d:
+#     if d[i] == 1:
+#         arr.append(i)
+# print(arr)
