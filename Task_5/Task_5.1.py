@@ -12,7 +12,7 @@ from random import randint
 
 
 sum = 2021
-num = int(randint(0,100))
+num = randint(0,100)
 count = 0
 if num % 2 == 0:
     count = 1
@@ -20,13 +20,13 @@ else:
     count = 2
 while sum > 0:
     if count == 2:
-        sum = sum - int(input('№1 Введите число от 1 до 28 -> '))
+        sum = sum - int(input('Игрок, введите число от 1 до 28 -> '))
         count = 1
     else:
-        sum = sum - int(input('№2 Введите число от 1 до 28 -> '))
+        sum = sum - randint(0,29)
         count = 2
 if count == 1:
     print('Ввыиграл №1')
 else:
-    print('Ввыиграл №2')
+    print('Ввыиграл Бот')
 
