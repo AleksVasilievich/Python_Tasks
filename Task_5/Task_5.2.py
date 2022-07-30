@@ -3,7 +3,6 @@
 
 from unicodedata import name
 
-
 field = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 vic = [[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6],
        [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6]]
@@ -63,3 +62,13 @@ while rest == False:
 
 print_field()
 print("Победил", prize)
+
+
+# d = {'X': 1, '0': -1}
+# arr = [['X', '0', 'X'],
+#        ['X', '*', 'X'],
+#        ['X', '*', 'X']]
+# for i in arr:
+#     for j in i:
+#         if j in d:
+#             print(d[j])
