@@ -1,13 +1,7 @@
 
-values = [3, 6, 9, 12, 15]
-transformed_values = list(map(lambda x: x, values))
-if values == transformed_values:
-    print('ok')
-else:
-    print('fail')
 
 
-    # def calc(oper, rows, columns):
+# def calc(oper, rows, columns):
 #     def oper_sum(a, b):
 #         s = a + b
 #         return s
@@ -25,3 +19,15 @@ else:
 #         return d
 
 # calc(3,5)
+
+
+
+def print_operatin_table(operation, num_rows = 9, num_columns = 9):
+    
+
+
+
+print_operatin_table(lambda x: x * y)
+
+       
+    
