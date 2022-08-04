@@ -1,6 +1,6 @@
-def exp_f(ponebook):
+def exp_f(ponebook_2):
     with open('data.txt', 'w', encoding='utf_8') as file:
-        file.write(ponebook)
+        file.write(ponebook_2)
 
 
 
