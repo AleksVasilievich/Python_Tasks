@@ -1,0 +1,6 @@
+id;post;telethone
+1;Director;89181111111
+2;Ingener;89182222222
+3;Buhgalter;89183333333
+4;Laborant;89184444444
+5;Tehnolog;89185555555

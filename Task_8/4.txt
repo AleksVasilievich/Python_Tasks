@@ -1,0 +1,6 @@
+id;standing;age
+1;7 years;30 years
+2;5 years;29 years
+3;10 years;27 years
+4;14 years;35 years
+5;3 years;28 years

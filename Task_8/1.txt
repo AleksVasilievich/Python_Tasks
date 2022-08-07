@@ -1,0 +1,6 @@
+id;name;surname;bd
+1;Egor;Ivanov;01.08.1992
+2;Semen;Efremov;05.09.1993
+3;Oleg;Sorokin;03.04.1995
+4;Dmitriy;Zorin;07.07.1987
+5;Pavel;Ognev;15.09.1994

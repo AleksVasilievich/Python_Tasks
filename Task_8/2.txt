@@ -1,0 +1,6 @@
+id;name;surname;bd
+1;Misha;Ivanov;02.08.2002
+2;Nikita;Efremov;06.09.2003 
+3;Igor;Sorokin;24.11.2012
+4;Uriy;Zorin;27.01.2015
+5;Tania;Ogneva;07.04.2005
