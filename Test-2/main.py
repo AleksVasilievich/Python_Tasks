@@ -1,15 +1,6 @@
-import mod_calc as c
-import input_calc as inp
-# import out_calc as out
+import out_calc as out
+import log as log
 
 
-a = inp.print_calc()
-b = inp.print_calc()
-v = inp.print_calc()
-
-# a = int(input())
-
-print(c.result(a, b, v))
-
-# num = c.result(a, b, v)
-# out.print_calc()
+# out.view_res()
+log.exp_calc2()
