@@ -1,5 +1,5 @@
 def print_calc():
 
-    n = int(input())
+    n = float(input())
 
     return n
