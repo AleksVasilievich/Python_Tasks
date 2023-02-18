@@ -9,3 +9,4 @@ class View(Calc):
     def view(self):
         v = float(input())
         return v
+  

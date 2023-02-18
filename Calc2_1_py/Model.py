@@ -18,4 +18,4 @@ class Model(Calc):
         if z == 4:
             res_st = str(x) + ' / ' + str(y) + ' = ' + str(x / y) + '\n'
             return res_st
-        return exit("Неверный ромер команды")
+        return exit("Неверный номер команды")

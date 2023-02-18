@@ -7,4 +7,4 @@ class Output:
         a = View.view(self)
         b = View.view(self)
         v = View.view(self)
-        return Model.result(self, a, b, v)
+        return Model.result(self, a, b, v)  
