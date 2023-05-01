@@ -29,6 +29,9 @@ def is_palindrome(text):
         return True, len(txt2), txt2, txt3[:num], txt3[:(num - 1): -1]
 
     return False, len(txt2), txt2, txt3[:num], txt3[:(num - 1): -1]
+
+    # или вместо предидущих трёх строк (будет True или False)
+    # return txt3[:num] == txt3[:(num - 1): -1]
     
 txt = 'sjdflksjflksdjflsdjk sdlfhsdjfE#R#$$#R !!!!! sdjfnsdjkfnsd kjcvadsk'
 # txt = input()

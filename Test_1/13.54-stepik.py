@@ -9,20 +9,6 @@
 он содержит хотя бы одну цифру.
 '''
 
-
-# def is_password_good(password):
-#     if len(password) < 8:
-#         return False
-#     elif password.islower() or password.isdigit() or password.isalpha() or password.isupper():
-#         return False
-#     else:
-#         return True
-
-# txt = input()
-
-# print(is_password_good(txt))
-
-
 def is_password_good(password):
 
     if len(password) < 8 :
@@ -48,5 +34,4 @@ def is_password_good(password):
 
      
 txt = input()
-
 print(is_password_good(txt))
