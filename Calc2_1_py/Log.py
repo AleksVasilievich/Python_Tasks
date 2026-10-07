@@ -1,6 +1,5 @@
 from Output import Output
 
-
 class Log:
     def log(self):
         data_calc2 = []
@@ -12,5 +11,5 @@ class Log:
 
         print(data)
 
-        with open('Calc2_1_py\calc2_1.txt', 'a', encoding='utf_8') as file:
+        with open('calc2_1.txt', 'a', encoding='utf_8') as file:
             file.write(data)

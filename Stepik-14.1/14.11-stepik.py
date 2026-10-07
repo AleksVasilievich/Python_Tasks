@@ -4,9 +4,12 @@
 15 и 8 соответственно:
 '''
 
-def draw_triangle():
-    for i in range(8):
-        print(' ' * (8 - 1 - i) + '*' * (1 + i * 2))
-             
 
-draw_triangle() 
+if __name__ == '__main__':
+    def draw_triangle():
+        for i in range(8):
+            print(' ' * (8 - 1 - i) + '*' * (1 + i * 2))
+
+
+    draw_triangle()
+
