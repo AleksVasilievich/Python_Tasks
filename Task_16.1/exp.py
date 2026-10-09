@@ -1,5 +1,5 @@
 def exp_f(ponebook):
-    with open('Task_16.1/data_1.txt', 'a', encoding='utf_8') as file:
+    with open('data_1.txt', 'a', encoding='utf_8') as file:
         file.write(ponebook)
 
 # import cods_1

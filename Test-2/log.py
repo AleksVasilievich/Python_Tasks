@@ -14,6 +14,6 @@ def exp_calc2():
 
     print(data)
 
-    with open('Test-2\calc2.txt', 'a', encoding='utf_8') as file:
+    with open('calc2.txt', 'a', encoding='utf_8') as file:
         file.write(data)
 
